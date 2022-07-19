@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+  
+
+.displayContainer{
+    background: #6E85B7;
+    width:605px;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+
+    .header{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+    .containerText{
+        margin: 35px 0;
+    }
+    .quotesContainer{
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        font-size: 30px;
+        word-break: break-all;
+        text-align: center;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    }
+    .personAuthor{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 24px;
+        font-size: 18px;
+    }
+
+}
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+
+    .btn{
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+        outline: none;
+        padding: 13px 22px;
+        border-radius: 30px;
+        background-color: #B2C8DF;
+        color: black;
+        transition: 0.3s;
+        font-family: 'Montserrat';
+    }
+    .btn:hover{
+        background-color: #3330E4;
+        color: white;
+    }
+}
+
+
